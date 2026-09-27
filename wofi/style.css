@@ -1,0 +1,54 @@
+/* Janela Principal */
+window {
+    margin: 2px;
+    border: 2px solid #FFFFFF; /* Azul Tokyo Night */
+    border-radius: 2px;
+    background-color: #FFFFFF; /* Fundo Escuro */
+    font-family: "JetBrains Mono", "Noto Sans", sans-serif;
+    font-size: 18px;
+}
+
+/* Container Interno */
+#outer-box {
+    margin: 10px;
+    border: none;
+    background-color: transparent;
+}
+
+/* Barra de Pesquisa (Input) */
+#input {
+    margin: 2dpx;
+    border: 1px solid #24283b;
+    border-radius: 3px;
+    padding: 10px;
+    color: #FFFFFF; /* Texto Claro */
+    background-color: #FFFFFF; /* Fundo do Input */
+}
+
+#input:focus {
+    border: 1px solid #FFFFFF; /* Roxo ao focar */
+}
+
+/* Lista de Resultados */
+#scroll {
+    margin: 2px;
+    border: none;
+}
+
+/* Itens da Lista */
+#text {
+    margin: 2px;
+    border: none;
+    color: #000000; /* Texto secundário */
+}
+
+/* Item Selecionado */
+#entry:selected {
+    background-color: #000000; /* Destaque de seleção */
+    border-radius: 2px;
+}
+
+#entry:selected #text {
+    color: #FFFFFF; /* Verde/Ciano Tokyo Night para o texto selecionado */
+    font-weight: bold;
+}

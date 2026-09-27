@@ -1,0 +1,14 @@
+width=500
+height=400
+location=center
+show=drun
+prompt=Search...
+filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_type=modes
+insensitive=true
+hide_scroll=true
+clear_verify_text=true

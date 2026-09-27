@@ -1,0 +1,32 @@
+#window {
+    background-color: rgba(30, 30, 46, 0.9);
+    border-radius: 4px;
+    border: 2px solid #cba6f7;
+    font-family: monospace;
+    font-size: 18px;
+    color: #cdd6f4;
+}
+
+#input {
+    background-color: #1a1b26;
+    color: 1a1b26;
+    border-radius: 8px;
+    border: none;
+    margin: 10px;
+    padding: 8px;
+}
+
+/* Modifica TODOS os aplicativos da lista */
+#entry {
+    background-color: #1a1b26;  /* Caixa branca */
+    color: #c0caf5             /* Letra preta */
+    border-radius: 2px;
+    margin: 4px 10px;
+    padding: 6px;
+}
+
+/* Modifica o aplicativo que estiver SELECIONADO no momento */
+#entry:selected {
+    background-color: #c0caf5;  /* Um cinza claro para destacar a seleção */
+    color: #000000;             /* Mantém a letra preta */
+}

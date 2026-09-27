@@ -1,0 +1,21 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+   "logo": {
+      "type": "file",
+      "source": "~/.config/fastfetch/r34.txt",
+      "color": {
+          "1": "black",  // Cor principal do Tokyo Night (pode ser "magenta", "blue", "cyan", etc.)
+          "2": "black"      // Segunda cor, caso seu ASCII use múltiplos caracteres de cor
+      }
+  },
+
+  "modules": [
+    "title",
+    "os",
+    "host",
+    "kernel",
+    "uptime",
+    "packages",
+    "wm",
+  ]
+}
